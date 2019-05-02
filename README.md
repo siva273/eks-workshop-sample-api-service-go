@@ -13,4 +13,4 @@ kubectl, builds the container image, pushes the image to [Amazon ECR](https://aw
 In the hello-k8s.yml file, you will find the Kubernetes [service](https://kubernetes.io/docs/concepts/services-networking/service/) and
 [deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) definitions. The service is configured with
 a [LoadBalancer](https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/) which prompts Kubernetes
-to launch an external load balancer using an [AWS ELB](https://aws.amazon.com/elasticloadbalancing/).
+to launch an external load balancer using an [AWS ELB](https://aws.amazon.com/elasticloadbalancing/)
